@@ -10,9 +10,7 @@ function App() {
         <nav className="p-6 flex justify-between items-center backdrop-blur-md bg-black/30 sticky top-0 z-50 border-b border-white/10">
           <Link to="/" className="text-2xl font-bold neon-text tracking-wider">AI CONTEST</Link>
           <div className="space-x-6">
-            <Link to="/register" className="hover:text-neon-cyan transition-colors">Inscrição</Link>
             <Link to="/vote" className="hover:text-neon-purple transition-colors">Votação</Link>
-            <Link to="/awards" className="hover:text-neon-blue transition-colors">Premiação</Link>
           </div>
         </nav>
 
